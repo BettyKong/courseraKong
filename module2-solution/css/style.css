@@ -144,6 +144,7 @@ body{
       border: 1px solid black;
       margin: 1px;
       height: 200px;
+      padding: 1px;
     }
     .M{
       position: relative;
@@ -163,9 +164,9 @@ body{
     #Menu1{
       background: pink;
     }
-  #Menu2{
+    #Menu2{
       background: #FF00FF;
     }
-  #Menu3{
+    #Menu3{
       background: #FFFF00;
     }
