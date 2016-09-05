@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 #body1 {
 	background-color: maroon;
 }
@@ -8,7 +11,7 @@
 	border: 0;
 }
 #logo-img {
-	background: url('../images/restaurant-logo_large.png') no-repeat;
+	background: url('../images/restaurant-logo_large1.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
@@ -41,7 +44,9 @@
 	vertical-align: middle;
 }
 #nav-list{
-	margin-top: 1	0px;
+	margin: 0 5px 5px 0px;
+	width: 100%;
+	background-color: #ff0000
 }
 #nav-list a{
 	color: #951C49;
@@ -71,4 +76,23 @@
 .navbar-header button.navbar-toggle{
 	clear: both;
     margin-top: -30px;
+}
+/***Large devices only ****/
+@media (min-width: 1200px) {
+
+}
+/***Medium devices only ****/
+@media (min-width: 992px)  and (max-width: 1199px){
+	/* header */
+	#logo-img {
+		background: url('../images/restaurant-logo_medium.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}	
+}
+
+.row div {
+	background-color: yellow;
+	margin: 1px;
 }
